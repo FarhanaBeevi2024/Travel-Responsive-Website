@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VenTripTravel&ToursWebsite</title>
+    <link rel="icon" type="image/icon" href="./images/VentripLogo.jpg" />
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!--javascript-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!--css styling-->
+    <link rel="stylesheet" href="./style.css" />
+    <!--fontawesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark p-3">
+      <a class="navbar-brand" href="#">
+        <img
+          src="./images/logo.png"
+          class="logo"
+          alt="Logo"
+          title="Vintrip Travels"
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link me-5 fs-4" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-5 fs-4" aria-current="page" href="#destinations"
+              >Destinations</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-5 fs-4" aria-current="page" href="#offers"
+              >Offers</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-5 fs-4" aria-current="page" href="#aboutus"
+              >About Us</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-5 fs-4" aria-current="page" href="#packages"
+              >Packages</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-5 fs-4" aria-current="page" href="#enquiry"
+              >Enquiry</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+<!-- Home  -->
+
+    <div class="container">
+      <div class="banner" id="home">
+        <video
+          src="./images/bgVideo.mp4"
+          type="video/mp4"
+          autoplay
+          muted
+          loop
+        ></video>
+
+        <div class="content" id="home">
+          <div class="title">
+            <h1>Lets Explore the World</h1>
+            <p>
+              Discover the world's hidden treasures and create unforgettable experiences with us!
+            </p>
+            <div class="search">
+              <div class="search-content">
+                <select class="Destinations">
+                  <option selected>Destination</option>
+                  <option value="Country">Armenia</option>
+                  <option value="Country">Azerbaijan</option>
+                  <option value="Country">Georgia</option>
+                  <option value="Country">Indonesia</option>
+                  <option value="Country">Malaysia</option>
+                  <option value="Country">Maldives</option>
+                  <option value="Country">Singapore</option>
+                  <option value="Country">Thailand</option>
+                  <option value="Country">Turkey</option>
+                </select>
+                <select class="Destinations">
+                  <option selected>No.of Days</option>
+                  <option value="1 day">1 day</option>
+                  <option value="2 days">2 days</option>
+                  <option value="3 days">3 days</option>
+                  <option value="4 days">4 days</option>
+                  <option value="5 days">5 days</option>
+                  <option value="6 days">6 days</option>
+                  <option value="7 days">7 days</option>
+                  <option value="8 days">8 days</option>
+                  <option value="9 days">9 days</option>
+                  <option value="10 days">10 days</option>
+                </select>
+                <select class="Destinations">
+                  <option selected>No.of Travellers</option>
+                  <option value="1 pax">1 pax</option>
+                  <option value="2 pax">2 pax</option>
+                  <option value="3 pax">3 pax</option>
+                  <option value="4 pax">4 pax</option>
+                  <option value="5 pax">5 pax</option>
+                  <option value="6 pax">6 pax</option>
+                  <option value="7 pax">7 pax</option>
+                  <option value="8 pax">8 pax</option>
+                  <option value="9 pax">9 pax</option>
+                  <option value="10 pax">10 pax</option>
+                </select>
+                <a href="#" class="select-btn">Search</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- Destinations  -->
+
+      <section class="mt-5 top" id="destinations">
+        <h1 class="text-center">Top Destinations</h1>
+        <div class="row">
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/Armenia_Monastery.jpg" alt="" />
+              <div class="card-img-overlay">
+                <h3 class="card-titel">Armenia</h3>
+                <h6>Dilijan</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/AzerbaijanHeyder.webp" alt="" />
+              <div class="card-img-overlay">
+                <h3 class="card-titel">Azerbaijan</h3>
+                <h6>Baku</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/Georgia Tbilis.jpg" alt="" />
+              <div class="card-img-overlay">
+                <h3 class="card-titel">Georgia</h3>
+                <h6>Tbilis</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card ">
+              <img src="./images/istanbul.jpg" class="h-100" alt="" />
+              <div class="card-img-overlay">
+                <h3 class="card-titel">Turkey</h3>
+                <h6>Istanbul</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card mt-5">
+              <img src="./images/malaysia.jpeg" alt="" />
+              <div class="card-img-overlay">
+                <h3 class="card-titel">Malaysia</h3>
+                <h6>Kuala Lumpur</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card mt-5">
+              <img src="./images/Singapore img.jpg" alt="" />
+              <div class="card-img-overlay">
+                <h3 class="card-titel">Singapore</h3>
+                <h6>Marina Gardens</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card mt-5">
+              <img src="./images/Maldives img.jpg" alt="" />
+              <div class="card-img-overlay">
+                <h3 class="card-titel">Maldives</h3>
+                <h6>Fihalholi Island</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card mt-5">
+              <img src="./images/Bali Beach.jpg" alt="" />
+              <div class="card-img-overlay">
+                <h3 class="card-titel">Indonesia</h3>
+                <h6>Bali</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<!-- Offers -->
+
+      <section
+        id="offers"
+        class="carousel slide mt-5 mb-3"
+        data-bs-ride="carousel"
+      >
+        <h1 class="text-center">Our Special Offers</h1>
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./images/Maldives.jpg"
+              class="d-block w-100"
+              height=" "
+              alt="..."
+            />
+
+            <div class="carousel-caption d-none d-md-block">
+              <section class="banner-bottom">
+                <div class="banner-highlights">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <h1>Get upto 30% off</h1>
+                        <h2>Time to experience Romantic Maldives !</h2>
+                      </div>
+                      <div class="col-md-4">
+                        <button type="button" class="booking-btn">
+                          Book Now
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/Bali.jpg"
+              class="d-block w-100"
+              height=" "
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <section class="banner-bottom">
+                <div class="banner-highlights">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <h1>Get 30% off</h1>
+                        <h2>Bali beyond Boundaries ..!!</h2>
+                      </div>
+                      <div class="col-md-4">
+                        <button type="button" class="booking-btn">
+                          Book Now
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/thailand.jpg"
+              class="d-block w-100"
+              height=" "
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <section class="banner-bottom">
+                <div class="banner-highlights">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <h1>Upto 30% off</h1>
+                        <h2>Have a sizzling Thai Summer !!</h2>
+                      </div>
+                      <div class="col-md-4">
+                        <button type="button" class="booking-btn">
+                          Book Now
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </section>
+
+<!-- About Us -->
+
+      <section class="about mt-5" id="aboutus">
+        <h1 class="text-center">About Us</h1>
+        <p class="about-details">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam,
+          ipsum obcaecati. Ipsam blanditiis rem oditconsectetur adipisicing elit. Quibusdam,
+          ipsum obcaecati. Ipsam blanditiis rem odit
+        </p>
+        <div class="about-content">
+          <div class="row">
+            <div class="col-lg-3 col-md-12">
+              <div class="card">
+                <img
+                  src="./images/Thaibeach.jpg"
+                  class="d-block w-100"
+                  height="600px "
+                  alt="..."
+                />
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div>
+                <h2 class="heading-content py-4">Ventrip Travels</h2>
+                <p class="para-content-about">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quidem optio animi minus dolorum sint alias aperiam expedita
+                  dicta error quaerat sunt molestiae, velit incidunt, libero
+                  placeat, minima facere cupiditate pariatur.Lorem aperiam
+                  expedita dicta error e cupiditate
+                  pariatur.Lorem Lorem ipsum dolor sit, amet consectetur
+                  adipisicing elit. Atque, earum veritatis quas assumenda
+                  accusamus itaque laboriosam deleniti sint consectetur
+                  voluptate ratione aliquam maiores provident est possimus vel
+                  modi officiis necessitatibus!Lorem Lorem ipsum dolor<br />
+                  sit amet consectetur adipisicing elit. Vitae, asperiores. Vero
+                  odio necessitatibus error minus laboriosam debitis, in saepe
+                  repellendus rem aut enim voluptates veniam? Animi, pariatur
+                  alias! Laborum, amet!Lorem amet consectetur adipisicing elit.
+                  Atque, earum veritatis quas assumenda accusamus itaque
+                  laboriosam deleniti sint consectetur
+                  adipisicing elit. Vitae, asperiores. Vero odio necessitatibus
+                  error minus laboriosam debitis, in saepe repellendus rem aut
+                  enim voluptates veniam? Animi, pariatur alias! Laborum,
+                  amet!Lorem amet consectetur adipisicing elit. Atque, earum
+                  veritatis quas assumenda <br />
+                  accusamus itaque laboriosam deleniti sint consectetur
+                  voluptate ratione aliquam maiores provident est possimus vel
+                  modi officiis necessitatibus!Lorem Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Vitae, asperiores. Vero odio
+                  necessitatibus error minus laboriosam debitis, in saepe
+                  repellendus rem aut enim voluptates veniam? Animi, pariatur
+                  alias! Laborum, amet!Lorem amet consectetur adipisicing elit.
+                  Atque, earum veritatis
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-12">
+              <div>
+                <div class="card">
+                  <img
+                    src="./images/balilady.jpg"
+                    class="d-block w-100"
+                    height="600px"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="testimonial">
+        <div class="row">
+          <div
+            class="col-md-4 h-100 d-flex align-items-center justify-content-center"
+          >
+            <div
+              class="card shadow px-4 py-5 d-flex align-items-center justify-content-center"
+              style="width: 100%"
+            >
+              <img
+                src="./images/Tourists.png"
+                class="card-img-top textImg mt-4"
+                alt="..."
+              />
+              <div class="card-body">
+                <h2 class="card-title text-center fs-4 mt-4">
+                  Extremely Happy Travellers
+                </h2>
+
+                <h6 class="text-center fs-5 mt-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Maxime voluptatum voluptatem quasi iusto tempore eveniet
+                  mollitia quaerat ab, nostrum repellendus ad aliquam hic
+                  expedita dicta nulla atque quibusdam minima laudantium.
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-md-4 h-100 d-flex align-items-center justify-content-center"
+          >
+            <div
+              class="card shadow px-4 py-5 d-flex align-items-center justify-content-center"
+              style="width: 100%"
+            >
+              <img
+                src="./images/locationicon.webp"
+                class="card-img-top textImg mt-4"
+                alt="..."
+              />
+
+              <div class="card-body">
+                <h5 class="card-title text-center fs-4 mt-4">Experience</h5>
+
+                <h6 class="text-center fs-5 mt-3">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim
+                  sunt tenetur quod reiciendis totam perferendis repellat
+                  molestiae, modi at quaerat rem corrupti dolor, fugit dolorum.
+                  Culpa aliquam quis saepe dicta!
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-md-4 h-100 d-flex align-items-center justify-content-center"
+          >
+            <div
+              class="card shadow px-4 py-5 d-flex align-items-center justify-content-center"
+              style="width: 100%"
+            >
+              <img
+                src="./images/Trip.png"
+                class="card-img-top textImg mt-4"
+                alt="..."
+              />
+
+              <div class="card-body">
+                <h5 class="card-title text-center fs-4 mt-4">
+                  <span style="color: indianred;">50,000+</span> Abroad Trips
+                </h5>
+
+                <h6 class="text-center fs-5 mt-3">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim
+                  sunt tenetur quod reiciendis totam perferendis repellat
+                  molestiae, modi at quaerat rem corrupti dolor, fugit dolorum.
+                  Culpa aliquam quis saepe dicta!
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- Packages  -->
+
+      <div class="packages" id="packages">
+        <h1 class="text-center mt-5">Our Tour Packages</h1>
+        <div class="row">
+          <div class="col-lg-4 col-md-12">
+            <div class="card border-0 rounded-0">
+              <img
+                src="./images/armenian-monastery.avif"
+                class="card-img-top"
+                alt="cardimg1"
+                height="500px"
+              />
+              <div class="card-body">
+                <h5 class="card-title mt-1 fs-3">Armenia</h5>
+                <p>5 Nights , 6 Days</p>
+                <div class="row">
+                  <div class="col-6">
+                    <div class="star">
+                      <i
+                        class="fa-solid fa-star fa-beat-fade"
+                        style="color: #ffd43b"
+                      ></i>
+                      <i
+                        class="fa-solid fa-star fa-beat-fade"
+                        style="color: #ffd43b"
+                      ></i>
+                      <i
+                        class="fa-solid fa-star fa-beat-fade"
+                        style="color: #ffd43b"
+                      ></i>
+                      <i
+                        class="fa-solid fa-star fa-beat-fade"
+                        style="color: #ffd43b"
+                      ></i>
+                      <i
+                        class="fa-solid fa-star-half-stroke fa-beat-fade"
+                        style="color: #ffd43b"
+                      ></i>
+                    </div>
+                    <h6>Price :<strong>$500</strong></h6>
+                  </div>
+                  <div class="col-6">
+                    <a href="#" class="btn rounded-0 viewBtn p-2">BOOK NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="card border-0 rounded-0">
+              <img
+                src="./images/Azerbaijan Baku.jpeg"
+                class="card-img-top"
+                alt="cardimg1"
+                height="500px"
+              />
+              <div class="card-body">
+                <h5 class="card-title mt-1 fs-3">Azerbaijan</h5>
+                <p>3 Nights , 4 Days</p>
+                <div class="row">
+                  <div class="col-6">
+                    <div class="star">
+                      <i
+                        class="fa-solid fa-star fa-beat-fade"
+                        style="color: #ffd43b"
+                      ></i>
+                      <i
+                        class="fa-solid fa-star fa-beat-fade"
+                        style="color: #ffd43b"
+                      ></i>
+                      <i
+                        class="fa-solid fa-star fa-beat-fade"
+                        style="color: #ffd43b"
+                      ></i>
+                      <i
+                        class="fa-solid fa-star fa-beat-fade"
+                        style="color: #ffd43b"
+                      ></i>
+                      <i
+                        class="fa-solid fa-star-half-stroke fa-beat-fade"
+                        style="color: #ffd43b"
+                      ></i>
+                    </div>
+                    <h6>Price :<strong>$500</strong></h6>
+                  </div>
+                  <div class="col-6">
+                    <a href="#" class="btn rounded-0 viewBtn p-2">BOOK NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="card border-0 rounded-0">
+              <img
+                src="./images/Turkey Baloons.webp"
+                class="card-img-top"
+                alt="cardimg1"
+                height="500px"
+              />
+              <div class="card-body">
+                <h5 class="card-title mt-1 fs-3">Turkey</h5>
+                <p>5 Nights , 6 Days</p>
+                <div class="row">
+                  <div class="col-6">
+                    <div class="star">
+                      <i
+                        class="fa-solid fa-star fa-beat-fade"
+                        style="color: #ffd43b"
+                      ></i>
+                      <i
+                        class="fa-solid fa-star fa-beat-fade"
+                        style="color: #ffd43b"
+                      ></i>
+                      <i
+                        class="fa-solid fa-star fa-beat-fade"
+                        style="color: #ffd43b"
+                      ></i>
+                      <i
+                        class="fa-solid fa-star fa-beat-fade"
+                        style="color: #ffd43b"
+                      ></i>
+                      <i
+                        class="fa-solid fa-star fa-beat-fade"
+                        style="color: #ffd43b"
+                      ></i>
+                      <i
+                        class="fa-solid fa-star-half-stroke fa-beat-fade"
+                        style="color: #ffd43b"
+                      ></i>
+                    </div>
+                    <h6>Price :<strong>$500</strong></h6>
+                  </div>
+                  <div class="col-6">
+                    <a href="#" class="btn rounded-0 viewBtn p-2">BOOK NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="card border-0 rounded-0">
+              <img
+                src="./images/maldives-island.jpg"
+                class="card-img-top"
+                alt="cardimg1"
+                height="500px"
+              />
+              <div class="card-body">
+                <h5 class="card-title mt-1 fs-3">Maldives</h5>
+                <p>5 Nights , 6 Days</p>
+                <div class="row">
+                  <div class="col-6">
+                    <div class="star">
+                      <i
+                        class="fa-solid fa-star fa-beat-fade"
+                        style="color: #ffd43b"
+                      ></i>
+                      <i
+                        class="fa-solid fa-star fa-beat-fade"
+                        style="color: #ffd43b"
+                      ></i>
+                      <i
+                        class="fa-solid fa-star fa-beat-fade"
+                        style="color: #ffd43b"
+                      ></i>
+                      <i
+                        class="fa-solid fa-star fa-beat-fade"
+                        style="color: #ffd43b"
+                      ></i>
+                      <i
+                        class="fa-solid fa-star fa-beat-fade"
+                        style="color: #ffd43b"
+                      ></i>
+                    </div>
+                    <h6>Price :<strong>$500</strong></h6>
+                  </div>
+                  <div class="col-6">
+                    <a href="#" class="btn rounded-0 viewBtn p-2">BOOK NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="card border-0 rounded-0">
+              <img
+                src="./images/Thailand temple.jpg"
+                class="card-img-top"
+                alt="cardimg1"
+                height="500px"
+              />
+              <div class="card-body">
+                <h5 class="card-title mt-1 fs-3">Thailand</h5>
+                <p>3 Nights , 4 Days</p>
+                <div class="row">
+                  <div class="col-6">
+                    <div class="star">
+                      <i
+                        class="fa-solid fa-star fa-beat-fade"
+                        style="color: #ffd43b"
+                      ></i>
+                      <i
+                        class="fa-solid fa-star fa-beat-fade"
+                        style="color: #ffd43b"
+                      ></i>
+                      <i
+                        class="fa-solid fa-star fa-beat-fade"
+                        style="color: #ffd43b"
+                      ></i>
+                      <i
+                        class="fa-solid fa-star fa-beat-fade"
+                        style="color: #ffd43b"
+                      ></i>
+                      <i
+                        class="fa-solid fa-star-half-stroke fa-beat-fade"
+                        style="color: #ffd43b"
+                      ></i>
+                    </div>
+                    <h6>Price :<strong>$500</strong></h6>
+                  </div>
+                  <div class="col-6">
+                    <a href="#" class="btn rounded-0 viewBtn p-2">BOOK NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="card border-0 rounded-0">
+              <img
+                src="./images/SingaporeLion.jpg"
+                class="card-img-top"
+                alt="cardimg1"
+                height="500px"
+              />
+              <div class="card-body">
+                <h5 class="card-title mt-1 fs-3">Singapore</h5>
+                <p>5 Nights , 6 Days</p>
+                <div class="row">
+                  <div class="col-6">
+                    <div class="star">
+                      <i
+                        class="fa-solid fa-star fa-beat-fade"
+                        style="color: #ffd43b"
+                      ></i>
+                      <i
+                        class="fa-solid fa-star fa-beat-fade"
+                        style="color: #ffd43b"
+                      ></i>
+                      <i
+                        class="fa-solid fa-star fa-beat-fade"
+                        style="color: #ffd43b"
+                      ></i>
+                      <i
+                        class="fa-solid fa-star fa-beat-fade"
+                        style="color: #ffd43b"
+                      ></i>
+                      <i
+                        class="fa-solid fa-star-half-stroke fa-beat-fade"
+                        style="color: #ffd43b"
+                      ></i>
+                    </div>
+                    <h6>Price :<strong>$500</strong></h6>
+                  </div>
+                  <div class="col-6">
+                    <a href="#" class="btn rounded-0 viewBtn p-2">BOOK NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- Enquiry  -->
+
+      <div class="row my-5" id="enquiry">
+        <h1 class="text-center">Enquire Now</h1>
+        <div class="col-md-5 col-sm-12">
+          <div id="contact-img">
+            <img
+              src="https://media.istockphoto.com/id/673520562/photo/family-travel-suitcase-child-on-luggage-binocular-looking-up-people-pointing-up-with-vacation.jpg?s=612x612&w=0&k=20&c=AS8aIldR6GXehwJkROFin4nzR8Pkc5MwqbZ2ChRMhQ8="
+              class="w-100"
+              height="600px"
+            />
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-12"></div>
+        <div class="col-md-5 col-sm-12">
+          <form>
+            <div class="mb-3 mt-3">
+              <label for="text" class="form-label">Name:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="text"
+                placeholder="Enter your Name"
+                name="Name"
+              />
+            </div>
+            <div class="mb-3 mt-3">
+              <label for="text" class="form-label">City of Residence:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="text"
+                placeholder="Enter your Name"
+                name="City"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+              <div id="emailHelp" class="form-text">
+                We'll never share your email with anyone else.
+              </div>
+            </div>
+            <div class="mb-3 mt-3">
+              <label for="text" class="form-label">Travel Destination:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="text"
+                placeholder=""
+                name="Destination"
+              />
+            </div>
+            <div class="mb-3 mt-3">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Number of days</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+              </select>
+            </div>
+            <div class="mb-3 mt-3">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Number of people</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-danger">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+<!-- Footer -->
+
+    <div class="footer">
+      <div class="row m-0 px-5">
+        <div
+          class="col-md-4 d-flex justify-content-center align-items-cente text-light flex-column p-5"
+        >
+          <h3 class="fs-1">Reach Us</h3>
+          <div class="information fs-5 mt-5">
+            <div class="info-box">
+              <i class="fa-solid fa-phone"></i>
+              <span>+971-8765428346</span>
+            </div>
+            <br>
+            <div class="info-box">
+              <i class="fa-solid fa-envelope"></i>
+              <span>Ventriptravels@gmail.com</span>
+            </div>
+            <br>
+            <div class="info-box">
+              <i class="fa-solid fa-user"></i>
+              <span>Ventrip Travels,Golden Plaza,StreetNo786,<br>  Business Bay,Dubai,UAE</span>
+            </div>
+           
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h3 class="fs-1 text-light mt-5 mb-5 text-center">Quick Links</h3>
+
+          <h5 class="text-center">
+            <a href="#home" class="mt-3 text-light fs-5">Home</a><br />
+          </h5>
+          <h5 class="text-center">
+            <a href="#destinations" class="mt-3 text-light fs-5">Destinations</a><br />
+          </h5>
+          <h5 class="text-center">
+            <a href="#offers" class="mt-3 text-light fs-5">Offers</a><br />
+          </h5>
+          <h5 class="text-center">
+            <a href="#aboutus" class="mt-3 text-light fs-5">About Us</a><br />
+          </h5>
+          <h5 class="text-center">
+            <a href="#packages" class="mt-3 text-light fs-5">Packages</a><br />
+          </h5>
+          <h5 class="text-center">
+            <a href="#enquiry" class="mt-3 text-light fs-5">Enquiry</a><br />
+          </h5>
+        </div>
+
+        <div class="col-md-4 mt-5 pt-2 px-5">
+          <h3 class="fs-1 text-light">Follow Us</h3>
+          <div class="mt-5">
+            <form action=" " class="d-flex pe-5">
+              <input type="text" placeholder="Email Id" class="form-control" />
+              <button class="btn btn-warning ms-3">Subscribe</button>
+            </form>
+            <div class="mt-5 d-flex justify-content-evenly">
+              <a href="https://www.google.com/" target="_blank"
+              ><i class="fa-brands fa-google fa-3x text-secondary"></i></a>
+
+              <a href="https://www.instagram.com/" target="_blank"
+              ><i class="fa-brands fa-instagram fa-3x text-secondary"></i></a>
+
+              <a href="https://www.facebook.com/" target="_blank"
+              ><i class="fa-brands fa-facebook fa-3x text-secondary"></i></a>
+
+              <a href="https://twitter.com/" target="_blank"
+              ><i class="fa-brands fa-twitter fa-3x text-secondary"></i></a>
+
+        
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
